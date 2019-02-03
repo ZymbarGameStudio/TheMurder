@@ -671,6 +671,111 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394610099}
   m_CullTransparentMesh: 0
+--- !u!1001 &395686860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4272191166670459557, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.59375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459583, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f4523345bd10594bb6db6beec72450e,
+        type: 3}
+    - target: {fileID: 4272191166670459583, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: nome
+      value: Judas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: descricao
+      value: Vampiro
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: dialogo.frases.Array.data[0]
+      value: "Por mais que eu seja um vampiro, n\xE3o fui eu quem o matou."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: dialogo.frases.Array.data[1]
+      value: Mas eu realmente gostaria de sangue de prefeito, hehehe...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459553, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9233c28ed225e2842897a1e983ec06e9, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 162314a299747a845a8eba524a07db38, type: 3}
 --- !u!1 &433350834
 GameObject:
   m_ObjectHideFlags: 0
@@ -83900,7 +84005,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005411148, y: -0.37338758}
+  m_Offset: {x: 0, y: -0.31689182}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -83911,7 +84016,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.28433132, y: 0.56572485}
+  m_Size: {x: 0.49050844, y: 0.67871636}
   m_EdgeRadius: 0
 --- !u!4 &1524188385 stripped
 Transform:
@@ -87389,6 +87494,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3841588073875998725, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841588073875998725, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3841588073875998723, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -87444,9 +87559,104 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3841588073875998722, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1524188381, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 23e5f3ea2b0fc15408ce19327d2bc2c7, type: 3}
+--- !u!1001 &4272191166242957679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4272191166670459557, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.59375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459582, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: nome
+      value: Marcelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: descricao
+      value: Padre
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: dialogo.frases.Array.data[0]
+      value: Nosso prefeiro foi assassinado!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272191166670459552, guid: 162314a299747a845a8eba524a07db38,
+        type: 3}
+      propertyPath: dialogo.frases.Array.data[1]
+      value: "Que Deus o tenha, e que sua familia tenha for\xE7as para passar por
+        essa situa\xE7\xE3o dif\xEDcil, cof cof...."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 162314a299747a845a8eba524a07db38, type: 3}
 --- !u!1001 &7499502442002529194
 PrefabInstance:
   m_ObjectHideFlags: 0

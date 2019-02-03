@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         _dialogoManager = FindObjectOfType<DialogoManager>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         var moveHorizontal = Input.GetAxis("Horizontal");
         var moveVertical = Input.GetAxis("Vertical");

@@ -85,6 +85,8 @@ public class DialogoManager : MonoBehaviour
 
     public void FinalizarDialogo()
     {
+        StopAllCoroutines();
+
         nameText.text = "";
         dialogoText.text = "";
         dicaText.text = "";
