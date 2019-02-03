@@ -27,6 +27,8 @@ public class DialogoManager : MonoBehaviour
 
     public void MostrarNomeDescricao()
     {
+        _frases.Clear();
+
         nameBorder.gameObject.SetActive(true);
         dialogoBorder.gameObject.SetActive(true);
         nameBackground.gameObject.SetActive(true);
