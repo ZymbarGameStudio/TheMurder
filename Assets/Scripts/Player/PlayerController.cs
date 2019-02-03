@@ -19,6 +19,10 @@ public class PlayerController : MonoBehaviour
 
     private bool isInDialogue = false;
 
+    private float _timeBtwAudio = 0;
+    private float _startAudioTime = 0.5f;
+
+
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -45,6 +49,22 @@ public class PlayerController : MonoBehaviour
             _animator.SetBool("runningUp", up);
             _animator.SetBool("runningDown", down);
             _animator.SetBool("isMoving", isMoving);
+
+            if (isMoving)
+            {
+                if (_timeBtwAudio <= 0)
+                {
+                    AudioManager.PlayAudio("run");
+                    _timeBtwAudio = _startAudioTime;
+                }
+                else
+                {
+                    _timeBtwAudio -= Time.deltaTime;
+                }
+            }
+            else
+                _timeBtwAudio = 0;
+            
 
             if (up)
             {

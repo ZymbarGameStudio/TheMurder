@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class DialogoManager : MonoBehaviour
 {
+    public Image nameBorder;
+    public Image dialogoBorder;
+    public Image nameBackground;
+    public Image dialogoBackground;
+
     public Text nameText;
     public Text dialogoText;
 
@@ -22,6 +27,11 @@ public class DialogoManager : MonoBehaviour
 
     public void MostrarNomeDescricao()
     {
+        nameBorder.gameObject.SetActive(true);
+        dialogoBorder.gameObject.SetActive(true);
+        nameBackground.gameObject.SetActive(true);
+        dialogoBackground.gameObject.SetActive(true);
+
         nameText.text = CurrentInteractable.nome;
 
         foreach (var frase in CurrentInteractable.dialogo.frases)
@@ -78,5 +88,10 @@ public class DialogoManager : MonoBehaviour
         nameText.text = "";
         dialogoText.text = "";
         dicaText.text = "";
+
+        nameBorder.gameObject.SetActive(false);
+        dialogoBorder.gameObject.SetActive(false);
+        nameBackground.gameObject.SetActive(false);
+        dialogoBackground.gameObject.SetActive(false);
     }
 }
