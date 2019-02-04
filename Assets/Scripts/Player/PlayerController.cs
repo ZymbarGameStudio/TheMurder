@@ -31,13 +31,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        var moveHorizontal = Input.GetAxis("Horizontal");
-        var moveVertical = Input.GetAxis("Vertical");
-
-        up = moveVertical == 1;
-        down = moveVertical == -1;
-        right = moveHorizontal == 1;
-        left = moveHorizontal == -1;
+        up = Input.GetButton("GoUp");
+        down = Input.GetButton("GoDown");
+        right = Input.GetButton("GoRight");
+        left = Input.GetButton("GoLeft");
 
         isMoving = up || down || right || left;
 
